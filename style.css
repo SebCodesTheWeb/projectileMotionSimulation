@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid magenta; */
+    -webkit-touch-callout: none;
+       -webkit-user-select: none;
+       -khtml-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+        user-select: none;
+        -webkit-user-drag: none;
+}
+
+
+body{
+    background-color: #e5e5f7;
+    background-image:  linear-gradient(hsla(237, 92%, 62%, 0.3) 1px, transparent 1px), linear-gradient(to right, hsla(237, 92%, 62%, 0.3) 1px, hsla(240, 53%, 93%, 0.3) 1px);
+    background-size: 40px 40px;
+    min-height: 100vh;
+    position: relative;
+    /* border: 10px solid black; */
+}
+
+
+.projectileObject {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    height: 200px;
+    outline: 10px dotted cyan;
+}
+
+#projectile {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    position: absolute;
+    bottom: 0;
+}
+
